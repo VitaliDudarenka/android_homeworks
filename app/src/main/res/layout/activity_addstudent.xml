@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/infoImageViewAdd"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+
+    <EditText
+        android:id="@+id/editTextUrlAdd"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white_opacity"
+        android:text="image URL"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextNameAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_opacity"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Surname"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextSurnameAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_opacity"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+
+</LinearLayout>

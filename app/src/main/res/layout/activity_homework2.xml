@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:orientation="vertical"
+        android:paddingLeft="100dp"
+        android:paddingVertical="20dp">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp">
+
+            <View
+                android:id="@+id/View1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@color/red"
+                app:layout_constraintBottom_toTopOf="@id/View2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_weight="1" />
+
+            <View
+                android:id="@+id/View2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toTopOf="@id/View3"
+                app:layout_constraintTop_toBottomOf="@id/View1"
+                app:layout_constraintVertical_weight="1" />
+
+            <View
+                android:id="@+id/View3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@color/red"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/View2"
+                app:layout_constraintVertical_weight="1" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp">
+
+            <View
+                android:id="@+id/View4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toTopOf="@id/View5"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_weight="1" />
+
+            <View
+                android:id="@+id/View5"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@color/red"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/View4"
+                app:layout_constraintVertical_weight="1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="200dp"
+
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp">
+
+            <View
+                android:id="@+id/View7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/green"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/View8" />
+
+            <View
+                android:id="@+id/View8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toRightOf="@id/View7"
+                app:layout_constraintRight_toLeftOf="@id/View9" />
+
+            <View
+                android:id="@+id/View9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toRightOf="@id/View8"
+                app:layout_constraintRight_toRightOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp">
+
+            <View
+                android:id="@+id/View10"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@color/yellow"
+                app:layout_constraintBottom_toTopOf="@id/View11"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_weight="2" />
+
+            <View
+                android:id="@+id/View11"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@color/darkBlue"
+                app:layout_constraintBottom_toTopOf="@id/View12"
+                app:layout_constraintTop_toBottomOf="@id/View10"
+                app:layout_constraintVertical_weight="1" />
+
+            <View
+                android:id="@+id/View12"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@color/red"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/View11"
+                app:layout_constraintVertical_weight="1" />
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp">
+
+            <View
+                android:id="@+id/View13"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@color/red"
+                app:layout_constraintBottom_toTopOf="@id/View14"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_weight="1" />
+
+            <View
+                android:id="@+id/View14"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:background="@color/green"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/View13"
+                app:layout_constraintVertical_weight="1" />
+
+            <View
+                android:id="@+id/View15"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:layout_constraintLeft_toLeftOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp">
+
+            <View
+                android:id="@+id/View16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/View17"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:background="@color/white" />
+
+            <View
+                android:id="@+id/View18"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                android:background="@color/darkBlue" />
+        </RelativeLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp">
+
+            <View
+                android:id="@+id/View19"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                app:layout_constraintHorizontal_weight="3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/View20" />
+
+            <View
+                android:id="@+id/View20"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toRightOf="@id/View19"
+                app:layout_constraintRight_toLeftOf="@id/View21" />
+
+            <View
+                android:id="@+id/View21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                app:layout_constraintHorizontal_weight="6"
+                app:layout_constraintLeft_toRightOf="@id/View20"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="100dp">
+
+                <View
+                    android:id="@+id/View22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:background="@color/white" />
+
+            </RelativeLayout>
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>
